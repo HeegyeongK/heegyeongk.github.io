@@ -7,10 +7,50 @@ author_profile: true
 
 My doctoral research follows a connected progression from continuous handoff, to cross-view verification, to active acquisition and relay planning.
 
+<style>
+.research-list {
+  margin-top: 1.4rem;
+}
+.research-row {
+  display: grid !important;
+  grid-template-columns: 160px minmax(0, 1fr) !important;
+  gap: 1.5rem !important;
+  align-items: start;
+  padding: 1.35rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.research-media-placeholder {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 160px !important;
+  height: 120px !important;
+  min-width: 160px !important;
+  min-height: 120px !important;
+  box-sizing: border-box;
+  border: 1.5px dashed #aeb5bd !important;
+  border-radius: 4px;
+  background: #f1f3f5 !important;
+  color: #7d858d;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.research-row-copy h2 {
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .research-row {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
+
 <div class="research-list">
 {% for post in site.portfolio %}
   <article class="research-row">
-    <div class="research-media-placeholder" aria-label="Project media placeholder"></div>
+    <div class="research-media-placeholder" aria-label="Project media placeholder">Media</div>
     <div class="research-row-copy">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt }}</p>
