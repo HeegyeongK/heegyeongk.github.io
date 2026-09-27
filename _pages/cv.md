@@ -22,7 +22,7 @@ Oct. 2023 – present
 Sep. 2020 – Jun. 2023  
 Axel Adler Scholarship holder.  
 **Master's thesis:** *Finding an optimal searching pattern of a fleet of drones*  
-**Supervisor:** Dr. Ola Benderius
+**Supervisor:** Professor Ola Benderius
 
 **Bachelor of Science in Engineering, Aerospace and Mechanical Engineering**, Korea Aerospace University, Goyang, South Korea  
 Mar. 2013 – Aug. 2018  
