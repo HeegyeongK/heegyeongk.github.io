@@ -448,12 +448,32 @@
 
 .availability-badge {
   display: inline-block;
-  margin: 0.1rem 0 0.9rem;
+  margin: 0 0 1rem;
   padding: 0.32rem 0.62rem;
   border: 1px solid var(--global-base-color);
   border-radius: 999px;
   color: var(--global-base-color);
   font-size: 0.74rem;
   font-weight: 700;
+  line-height: 1.2;
+}
+
+
+.research-focus-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 0.9rem;
+}
+
+.focus-badge {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.72rem;
+  font-weight: 600;
   line-height: 1.2;
 }
