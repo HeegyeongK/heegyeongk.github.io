@@ -1,31 +1,28 @@
 ---
 permalink: /
-title: "Heegyeong Kim"
+title: false
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a PhD candidate in Computer Science at Macquarie University, supervised by Professor Richard Han. My research focuses on **cooperative multi-UAV systems for persistent sensing**, particularly target handoff, cross-view verification, active visibility recovery, and multi-agent planning.
+# Cooperative UAV systems for persistent sensing
 
-I work across **algorithm design, ROS-based simulation, computer vision, and real-world UAV experiments**. My goal is to build cooperative aerial systems that can maintain useful target observations when a single UAV is limited by battery, viewpoint, occlusion, or sensing geometry.
+I am a PhD candidate in Computer Science at Macquarie University, supervised by Professor Richard Han. I work on **cooperative multi-UAV systems** that maintain useful target observations despite battery limits, viewpoint changes, and occlusion.
 
-Research interests
-======
-- Multi-robot and multi-UAV systems
-- Aerial robotics
-- Cooperative perception
-- Target tracking and handoff
-- Visibility-aware and relay planning
+My work spans **multi-robot planning, cooperative perception, ROS-based simulation, computer vision, and real-world UAV experiments**.
 
-Research trajectory
-======
-My doctoral work follows a connected progression rather than a set of isolated projects:
+<div class="home-links">
+  <a class="btn btn--primary" href="/research/">Research</a>
+  <a class="btn" href="/publications/">Publications</a>
+  <a class="btn" href="/cv/">CV</a>
+</div>
 
-1. **[DroNet](/research/dronet/)** — continuous marine tracking with autonomous UAV handoff.
-2. **[PATH](/research/path/)** — geometry-assisted verification that the receiver has acquired the same physical target.
-3. **[Active target acquisition](/research/active-acquisition/)** — receiver-side recovery when the target is outside the receiver's field of view or physically occluded during handoff.
-4. **[VisRelay](/research/visrelay/)** — ongoing work on relay-viewpoint planning for persistent sensing through extended occlusion.
+## Research interests
 
-See the **[Research](/research/)** and **[Publications](/publications/)** pages for details.
+<span class="research-tag">Multi-UAV systems</span>
+<span class="research-tag">Aerial robotics</span>
+<span class="research-tag">Cooperative perception</span>
+<span class="research-tag">Target handoff</span>
+<span class="research-tag">Visibility-aware planning</span>
