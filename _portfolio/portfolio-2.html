@@ -1,7 +1,14 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+title: "PATH — Geometry-assisted target handoff verification"
+excerpt: "Cross-view geometric verification that a receiver UAV has acquired the same physical target as the sender."
 collection: portfolio
+permalink: /research/path/
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+<p>During UAV handoff, the receiver may detect several visually similar objects from a different and continuously changing viewpoint. Detection alone does not verify target identity.</p>
+
+<p>PATH uses inter-UAV geometry to project the sender's target information into the receiver's image as a spatial prior. The receiver returns a candidate observation, and the sender verifies agreement before tracking responsibility is transferred.</p>
+
+<p>Real-world UAV experiments measured mean relative-position and target-position errors of 0.047 m and 0.030 m. The reported implementation operates at video rate with compact inter-UAV communication below 16 kB/s at 60 Hz.</p>
+
+<p><a href="/publications/path/">Manuscript entry</a></p>
