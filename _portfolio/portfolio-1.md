@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "DroNet — Continuous marine tracking via autonomous UAV handoff"
+excerpt: "A multi-UAV system for extending marine-animal tracking beyond the endurance of a single drone."
 collection: portfolio
+permalink: /research/dronet/
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Long-duration visual monitoring is difficult when a single UAV must leave the target because of limited flight endurance. DroNet combines onboard visual tracking with autonomous handoff between UAVs so that tracking responsibility can be transferred to another platform.
+
+The system was evaluated for real-time marine tracking and handoff and was published at the 11th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications at ACM MobiSys 2025.
+
+[Publication entry](/publications/dronet/)
