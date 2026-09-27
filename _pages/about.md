@@ -43,7 +43,7 @@ redirect_from:
     <div class="trajectory-arrow">→</div>
     <div class="trajectory-step">
       <div class="trajectory-label">Active acquisition</div>
-      <div class="trajectory-project">HARP</div>
+      <div class="trajectory-project">Active acquisition</div>
     </div>
     <div class="trajectory-arrow">→</div>
     <div class="trajectory-step">
