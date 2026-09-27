@@ -41,8 +41,23 @@
 .research-media-placeholder {
   width: 160px;
   height: 120px;
-  border: 1px solid var(--global-border-color);
-  background: var(--global-code-background-color);
+  border: 1.5px dashed #b8bec6;
+  border-radius: 4px;
+  background: #f3f4f6;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.research-media-placeholder::after {
+  content: "Media";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #8a9199;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .research-row-copy h2 {
