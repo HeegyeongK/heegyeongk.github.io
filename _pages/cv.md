@@ -7,58 +7,72 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+Research interests
+======
+Multi-UAV systems; aerial robotics; cooperative perception; target tracking and handoff; visibility-aware motion planning.
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**PhD in Computer Science**, Macquarie University, Sydney, Australia  
+Oct. 2023 – present  
+Supervisor: Professor Richard Han  
+Research: cooperative multi-UAV systems for persistent target sensing.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Master of Science in Physics, Complex Adaptive Systems**, University of Gothenburg, Gothenburg, Sweden  
+Sep. 2020 – Jun. 2023  
+Axel Adler Scholarship holder.  
+Master's thesis: *Finding an optimal searching pattern of a fleet of drones.*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Bachelor of Science in Engineering, Aerospace and Mechanical Engineering**, Korea Aerospace University, Goyang, South Korea  
+Mar. 2013 – Aug. 2018  
+National Scholarship holder.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Research experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Doctoral Researcher — School of Computing, Macquarie University**  
+Oct. 2023 – present
 
-Publications
+- Conduct research on cooperative multi-UAV systems for persistent visual target sensing.
+- Develop methods for cross-view target handoff, geometric verification, active target acquisition, and relay planning.
+- Build and evaluate research systems using ROS-based simulation, computer vision, and real-world UAV experiments.
+- Work across system formulation, implementation, experimental design, and quantitative evaluation.
+
+**Master's Thesis Researcher — Chalmers University of Technology**  
+Nov. 2021 – Jun. 2023
+
+- Developed and evaluated search strategies for fleets of drones in maritime search scenarios.
+- Investigated Lyapunov guidance vector fields, bearing-only, oscillatory, and waypoint-based methods.
+- Built simulation tooling using C++ and Docker.
+
+Publications and manuscripts
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Teaching experience
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Industry experience
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+**Data Analyst — Summer Intern, Volvo Group Truck Technology**, Gothenburg, Sweden  
+Jul. 2022 – Sep. 2022
+
+- Analysed 97 field-test routes and outputs from the Energy Prediction Algorithm (EPA+).
+- Compared route and speed prediction variants and investigated factors contributing to energy-prediction error using Python-based analysis.
+
+Technical skills
 ======
-* Currently signed in to 43 different slack teams
+- **Programming:** Python, C++, MATLAB, CMake
+- **Robotics / systems:** ROS, Linux, WSL, Docker, Git
+- **Machine learning / scientific computing:** PyTorch, TensorFlow/Keras, scikit-learn, NumPy/SciPy
+- **Computer vision / visualisation:** OpenCV, Matplotlib
+- **Research tooling:** LaTeX
+
+Selected awards
+======
+- First Award, SARC-BARINet Aerospace Competition, 2021
+- Outstanding Presentation of Publication, The Society for Aerospace System Engineering, 2017
