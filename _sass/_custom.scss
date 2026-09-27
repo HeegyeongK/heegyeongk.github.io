@@ -227,7 +227,8 @@
 
 /* Homepage redesign */
 .home-hero {
-  max-width: 52rem;
+  width: 100%;
+  max-width: none;
   padding: 0.4rem 0 1.4rem;
 }
 
@@ -251,14 +252,14 @@
 }
 
 .home-lead {
-  max-width: 46rem;
+  max-width: 52rem;
   margin: 0;
   font-size: 1.04rem;
   line-height: 1.7;
 }
 
 .home-sublead {
-  max-width: 46rem;
+  max-width: 52rem;
   margin: 0.65rem 0 0;
   color: var(--global-text-color-light);
   font-size: 0.9rem;
