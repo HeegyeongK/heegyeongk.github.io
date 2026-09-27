@@ -91,16 +91,7 @@ redirect_from:
 <section class="home-section home-two-column">
   <div>
     <div class="section-kicker">Recent news</div>
-    <div class="home-news-list">
-      <div class="home-news-row">
-        <span class="home-news-date">Sep 2026</span>
-        <span>Joined the Technical Program Committee of IEEE MSN 2026.</span>
-      </div>
-      <div class="home-news-row">
-        <span class="home-news-date">Jun 2025</span>
-        <span>Published <em>Continuous Marine Tracking via Autonomous UAV Handoff</em> at ACM MobiSys DroNet.</span>
-      </div>
-    </div>
+    {% include news-feed.html mode="compact" limit=3 %}
     <div class="home-more"><a href="/news/">All news →</a></div>
   </div>
 

@@ -2,6 +2,7 @@
 title: "A Linkage Based Space Debris Capture Device Utilizing Kevlar Wires"
 collection: publications
 category: journals
+news: false
 permalink: /publications/space-debris-capture/
 excerpt: "A linkage-based capture mechanism for space-debris applications."
 date: 2017-06-01

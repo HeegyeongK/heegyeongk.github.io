@@ -1,0 +1,67 @@
+{% assign compact = false %}
+{% if include.mode == "compact" %}
+  {% assign compact = true %}
+{% endif %}
+
+<div class="{% if compact %}home-news-list{% else %}news-list{% endif %}" data-auto-news-feed data-limit="{{ include.limit | default: 0 }}">
+  {% for item in site.data.news %}
+    {% if compact %}
+      <div class="home-news-row auto-news-entry" data-date="{{ item.date | date: '%Y-%m-%d' }}">
+        <span class="home-news-date">{{ item.date | date: "%b %Y" }}</span>
+        <span>{{ item.home_text | default: item.text }}</span>
+      </div>
+    {% else %}
+      <article class="news-item auto-news-entry" data-date="{{ item.date | date: '%Y-%m-%d' }}">
+        <div class="news-date">{{ item.date | date: "%b %Y" }}</div>
+        <div class="news-body">
+          <strong>{{ item.title }}</strong>
+          {% if item.text %}<p>{{ item.text }}</p>{% endif %}
+          {% if item.url %}<a class="text-link" href="{{ item.url }}">{{ item.link_label | default: "More →" }}</a>{% endif %}
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
+
+  {% for post in site.publications %}
+    {% unless post.category == "under_review" or post.news == false %}
+      {% assign pub_venue = post.news_venue | default: post.venue %}
+      {% if compact %}
+        <div class="home-news-row auto-news-entry" data-date="{{ post.date | date: '%Y-%m-%d' }}">
+          <span class="home-news-date">{{ post.date | date: "%b %Y" }}</span>
+          <span>Published <em>{{ post.title }}</em> in {{ pub_venue }}.</span>
+        </div>
+      {% else %}
+        <article class="news-item auto-news-entry" data-date="{{ post.date | date: '%Y-%m-%d' }}">
+          <div class="news-date">{{ post.date | date: "%b %Y" }}</div>
+          <div class="news-body">
+            <strong>{{ post.title }}</strong>
+            <p>Published in <em>{{ pub_venue }}</em>.</p>
+            <a class="text-link" href="{{ post.url }}">Publication →</a>
+          </div>
+        </article>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<script>
+(function () {
+  document.querySelectorAll('[data-auto-news-feed]').forEach(function (feed) {
+    if (feed.dataset.newsReady === 'true') return;
+    feed.dataset.newsReady = 'true';
+
+    var items = Array.from(feed.querySelectorAll('.auto-news-entry'));
+    items.sort(function (a, b) {
+      return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+    });
+    items.forEach(function (item) { feed.appendChild(item); });
+
+    var limit = parseInt(feed.dataset.limit || '0', 10);
+    if (limit > 0) {
+      items.forEach(function (item, index) {
+        if (index >= limit) item.style.display = 'none';
+      });
+    }
+  });
+})();
+</script>

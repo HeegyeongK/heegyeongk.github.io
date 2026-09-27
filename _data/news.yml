@@ -1,0 +1,9 @@
+# Manual news only.
+# Published papers are added to News automatically from _publications.
+# Manuscripts with category: under_review are excluded automatically.
+- date: 2026-09-01
+  title: "Technical Program Committee — IEEE MSN 2026"
+  text: "Serving as a TPC member for Track 6: AIoT, Crowd Sensing & Computing at the 22nd IEEE International Conference on Mobility, Sensing and Networking (MSN 2026)."
+  home_text: "Joined the Technical Program Committee of IEEE MSN 2026."
+  url: "https://ieee-msn.org/2026/tpc.php"
+  link_label: "Committee page →"

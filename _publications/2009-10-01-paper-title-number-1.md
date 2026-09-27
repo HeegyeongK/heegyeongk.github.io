@@ -6,6 +6,7 @@ permalink: /publications/dronet/
 excerpt: "Continuous visual tracking of marine animals using autonomous handoff between UAVs."
 date: 2025-06-01
 venue: "11th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications, ACM MobiSys 2025"
+news_venue: "ACM MobiSys DroNet"
 authors: "Heegyeong Kim, Alice James, Avishkar Seth, Endrowednes Kuantama, Jane Williamson, Yimeng Feng, Richard Han"
 projecturl: "/research/dronet/"
 paperurl: "https://doi.org/10.1145/3711875.3737661"

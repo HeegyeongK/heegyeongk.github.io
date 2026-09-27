@@ -2,6 +2,7 @@
 title: "Optimization of Drag-sail Storage Inspired from Blossom Method"
 collection: publications
 category: journals
+news: false
 permalink: /publications/drag-sail/
 excerpt: "A folding method for improving drag-sail storage efficiency."
 date: 2017-07-01
