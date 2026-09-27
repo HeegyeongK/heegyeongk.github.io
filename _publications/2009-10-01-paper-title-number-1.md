@@ -9,7 +9,7 @@ venue: "11th Workshop on Micro Aerial Vehicle Networks, Systems, and Application
 authors: "Heegyeong Kim, Alice James, Avishkar Seth, Endrowednes Kuantama, Jane Williamson, Yimeng Feng, Richard Han"
 projecturl: "/research/dronet/"
 paperurl: "https://doi.org/10.1145/3711875.3737661"
-citation: "Heegyeong Kim, Alice James, Avishkar Seth, Endrowednes Kuantama, Jane Williamson, Yimeng Feng, and Richard Han. &quot;Continuous Marine Tracking via Autonomous UAV Handoff.&quot; ACM MobiSys Workshop, 2025."
+citation: "Heegyeong Kim, Alice James, Avishkar Seth, Endrowednes Kuantama, Jane Williamson, Yimeng Feng, and Richard Han. &quot;Continuous Marine Tracking via Autonomous UAV Handoff.&quot; ACM MobiSys DroNet Workshop, 2025."
 ---
 
 This work presents an autonomous UAV vision system for continuous marine-animal tracking and inter-UAV handoff.
