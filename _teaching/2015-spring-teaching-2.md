@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 2"
+title: "COMP8296 — Artificial Intelligence and Machine Learning Techniques in IoT"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+date: 2026-07-01
+venue: "Macquarie University"
+excerpt: "Workshop tutor and workshop-content co-developer."
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+**Teaching sessions:** S2 2024, S2 2025, S2 2026
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Co-developed workshop materials and delivered practical sessions covering topics including PyTorch, convolutional neural networks, and machine-learning techniques for IoT.
