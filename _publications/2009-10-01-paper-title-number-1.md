@@ -1,14 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Continuous Marine Tracking via Autonomous UAV Handoff"
 collection: publications
-category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
-bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+category: conferences
+permalink: /publications/dronet/
+excerpt: "Continuous visual tracking of marine animals using autonomous handoff between UAVs."
+date: 2025-06-01
+venue: "11th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications, ACM MobiSys 2025"
+paperurl: "https://doi.org/10.1145/3711875.3737661"
+citation: "Heegyeong Kim, Alice James, Avishkar Seth, Endrowednes Kuantama, Jane Williamson, Yimeng Feng, and Richard Han. &quot;Continuous Marine Tracking via Autonomous UAV Handoff.&quot; ACM MobiSys Workshop, 2025."
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
+This work presents an autonomous UAV vision system for continuous marine-animal tracking and inter-UAV handoff.
+
+[DOI](https://doi.org/10.1145/3711875.3737661)
