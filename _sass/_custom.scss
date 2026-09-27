@@ -135,3 +135,29 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Sidebar refinement */
+.sidebar .author__avatar img {
+  max-width: 150px;
+}
+
+.sidebar .author__name {
+  margin-bottom: 0.35rem;
+}
+
+.sidebar .author__bio {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar .author__urls a {
+  margin-bottom: 0.12rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.archive > p:first-of-type {
+  max-width: 48rem;
+  margin-bottom: 1.5rem;
+}
