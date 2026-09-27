@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "COMP8230 — Mining Unstructured Data"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+date: 2026-02-01
+venue: "Macquarie University"
+excerpt: "Designed workshop materials from scratch and delivered workshops."
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+**Teaching sessions:** S1 2025, S1 2026
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Designed workshop materials from scratch, including exercises, examples, and supporting content, and delivered workshops on unstructured-data analysis and related research topics.
