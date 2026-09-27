@@ -97,10 +97,6 @@ redirect_from:
         <span>Joined the Technical Program Committee of IEEE MSN 2026.</span>
       </div>
       <div class="home-news-row">
-        <span class="home-news-date">Aug 2026</span>
-        <span>Submitted PATH to IEEE Sensors Journal.</span>
-      </div>
-      <div class="home-news-row">
         <span class="home-news-date">Jun 2025</span>
         <span>Published <em>Continuous Marine Tracking via Autonomous UAV Handoff</em> at ACM MobiSys DroNet.</span>
       </div>
