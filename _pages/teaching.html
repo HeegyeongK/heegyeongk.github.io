@@ -12,8 +12,11 @@ Sessional Academic, School of Computing, Macquarie University · 2024–present
 {% for post in teaching_sorted %}
   <article class="teaching-item">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    {% if post.sessions %}<div class="teaching-meta">{{ post.sessions }}</div>{% endif %}
-    {% if post.role %}<p>{{ post.role }}</p>{% endif %}
+    <div class="teaching-meta">
+      {% if post.years %}<span>{{ post.years }}</span>{% endif %}
+      {% if post.sessions %}<span class="meta-sep">·</span><span>{{ post.sessions }}</span>{% endif %}
+    </div>
+    {% if post.role %}<p class="teaching-role">{{ post.role }}</p>{% endif %}
   </article>
 {% endfor %}
 </div>
