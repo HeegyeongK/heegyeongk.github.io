@@ -15,13 +15,14 @@ Education
 ======
 **PhD in Computer Science**, Macquarie University, Sydney, Australia  
 Oct. 2023 – present  
-Supervisor: Professor Richard Han  
-Research: cooperative multi-UAV systems for persistent target sensing.
+**Thesis:** *Continuous Monitoring of Submarine Animals using Multi-Drone Systems*  
+**Supervisor:** Professor Richard Han
 
 **Master of Science in Physics, Complex Adaptive Systems**, University of Gothenburg, Gothenburg, Sweden  
 Sep. 2020 – Jun. 2023  
 Axel Adler Scholarship holder.  
-Master's thesis: *Finding an optimal searching pattern of a fleet of drones.*
+**Master's thesis:** *Finding an optimal searching pattern of a fleet of drones*  
+**Supervisor:** Dr. Ola Benderius
 
 **Bachelor of Science in Engineering, Aerospace and Mechanical Engineering**, Korea Aerospace University, Goyang, South Korea  
 Mar. 2013 – Aug. 2018  
