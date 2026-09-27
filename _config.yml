@@ -23,7 +23,7 @@ repository               : "HeegyeongK/heegyeongk.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "PAGE.jpg"
   name             : "Heegyeong Kim"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Computer Science | Cooperative multi-UAV systems"
