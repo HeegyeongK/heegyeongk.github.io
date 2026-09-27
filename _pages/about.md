@@ -102,7 +102,7 @@ redirect_from:
       </div>
       <div class="home-news-row">
         <span class="home-news-date">Jun 2025</span>
-        <span>Published <em>Continuous Marine Tracking via Autonomous UAV Handoff</em> at ACM MobiSys MAVNet.</span>
+        <span>Published <em>Continuous Marine Tracking via Autonomous UAV Handoff</em> at ACM MobiSys DroNet.</span>
       </div>
     </div>
     <div class="home-more"><a href="/news/">All news →</a></div>
@@ -120,7 +120,7 @@ redirect_from:
       <article class="home-pub-item">
         <h3><a href="/publications/dronet/">Continuous Marine Tracking via Autonomous UAV Handoff</a></h3>
         <div class="home-pub-authors"><strong>Heegyeong Kim</strong>, Alice James, Avishkar Seth, Endrowednes Kuantama, Jane Williamson, Yimeng Feng, Richard Han</div>
-        <div class="home-pub-venue"><em>ACM MobiSys MAVNet</em>, 2025</div>
+        <div class="home-pub-venue"><em>ACM MobiSys DroNet</em>, 2025</div>
       </article>
     </div>
     <div class="home-more"><a href="/publications/">All publications →</a></div>
