@@ -26,7 +26,7 @@ author_profile: true
   <article class="news-item">
     <div class="news-date">Jun 2025</div>
     <div class="news-body">
-      <strong>DroNet published at ACM MobiSys MAVNet</strong>
+      <strong>DroNet published at ACM MobiSys DroNet</strong>
       <p><em>Continuous Marine Tracking via Autonomous UAV Handoff</em> appeared at the 11th Workshop on Micro Aerial Vehicle Networks, Systems, and Applications.</p>
       <a class="text-link" href="/publications/dronet/">Publication →</a>
     </div>
