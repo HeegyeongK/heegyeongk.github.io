@@ -26,8 +26,8 @@ author:
   avatar           : "PAGE.jpg"
   name             : "Heegyeong Kim"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in Computer Science | Cooperative multi-UAV systems"
-  location         : "Sydney, Australia"
+  bio              : "PhD Candidate in Computer Science"
+  location         :
   employer         : "Macquarie University"
   uri              : # URL
   email            : "heegyeong.kim@mq.edu.au"
