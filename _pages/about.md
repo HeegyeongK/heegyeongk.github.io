@@ -8,9 +8,13 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <p class="eyebrow">Multi-UAV systems · Aerial robotics · Cooperative perception</p>
-  <div class="availability-badge">Open to postdoctoral &amp; research opportunities · 2027</div>
+  <div class="research-focus-badges" aria-label="Research areas">
+    <span class="focus-badge">Multi-UAV systems</span>
+    <span class="focus-badge">Aerial robotics</span>
+    <span class="focus-badge">Cooperative perception</span>
+  </div>
   <h1>Cooperative UAV systems for persistent sensing</h1>
+  <div class="availability-badge">Open to postdoctoral &amp; research opportunities · 2027</div>
   <p class="home-lead">
     I am a PhD candidate in Computer Science at Macquarie University, supervised by Professor Richard Han.
     I develop cooperative UAV systems that maintain useful target observations despite battery limits,
@@ -20,11 +24,6 @@ redirect_from:
     My work spans multi-robot planning, cooperative perception, ROS-based simulation,
     computer vision, and real-world UAV experiments.
   </p>
-  <div class="home-links">
-    <a class="btn btn--primary" href="/research/">Research</a>
-    <a class="btn" href="/publications/">Publications</a>
-    <a class="btn" href="/cv/">CV</a>
-  </div>
 </section>
 
 <section class="home-section">
