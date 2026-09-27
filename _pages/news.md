@@ -16,14 +16,6 @@ author_profile: true
   </article>
 
   <article class="news-item">
-    <div class="news-date">Aug 2026</div>
-    <div class="news-body">
-      <strong>PATH submitted to IEEE Sensors Journal</strong>
-      <p>Submitted our geometry-assisted target-handoff verification work for journal review.</p>
-    </div>
-  </article>
-
-  <article class="news-item">
     <div class="news-date">Jun 2025</div>
     <div class="news-body">
       <strong>DroNet published at ACM MobiSys DroNet</strong>
