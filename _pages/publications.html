@@ -5,26 +5,26 @@ permalink: /publications/
 author_profile: true
 ---
 
-Published work and manuscripts are separated by status below.
-
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+{% for category in site.publication_category %}
+  {% assign category_posts = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% if category_posts.size > 0 %}
+    <h2 class="section-heading">{{ category[1].title }}</h2>
+    <div class="publication-list">
+    {% for post in category_posts %}
+      <article class="publication-item">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        {% if post.authors %}
+          <div class="pub-authors">{{ post.authors | replace: 'Heegyeong Kim', '<strong>Heegyeong Kim</strong>' | replace: 'Heekyung Kim', '<strong>Heekyung Kim</strong>' }}</div>
+        {% endif %}
+        <div class="pub-venue"><em>{{ post.venue }}</em>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}</div>
+        <div class="pub-links">
+          {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+          {% if post.projecturl %}<a href="{{ post.projecturl }}">Project</a>{% endif %}
+        </div>
+      </article>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    </div>
+  {% endif %}
+{% endfor %}
