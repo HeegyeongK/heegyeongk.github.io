@@ -8,11 +8,6 @@ redirect_from:
 ---
 
 <section class="home-hero">
-  <div class="research-focus-badges" aria-label="Research areas">
-    <span class="focus-badge">Multi-UAV systems</span>
-    <span class="focus-badge">Aerial robotics</span>
-    <span class="focus-badge">Cooperative perception</span>
-  </div>
   <h1>Cooperative UAV systems for persistent sensing</h1>
   <div class="availability-badge">Open to postdoctoral &amp; research opportunities · 2027</div>
   <p class="home-lead">
@@ -24,6 +19,11 @@ redirect_from:
     My work spans multi-robot planning, cooperative perception, ROS-based simulation,
     computer vision, and real-world UAV experiments.
   </p>
+  <div class="research-focus-badges" aria-label="Research areas">
+    <span class="focus-badge">Multi-UAV systems</span>
+    <span class="focus-badge">Aerial robotics</span>
+    <span class="focus-badge">Cooperative perception</span>
+  </div>
 </section>
 
 <section class="home-section">
