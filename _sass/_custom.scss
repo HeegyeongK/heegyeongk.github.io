@@ -477,3 +477,21 @@
   font-weight: 600;
   line-height: 1.2;
 }
+
+
+/* Clickable content titles */
+.research-row-copy h2 a,
+.publication-item h3 a,
+.teaching-item h3 a,
+.home-research-copy h3 a,
+.home-pub-item h3 a {
+  color: #4f9fbe;
+}
+
+.research-row-copy h2 a:hover,
+.publication-item h3 a:hover,
+.teaching-item h3 a:hover,
+.home-research-copy h3 a:hover,
+.home-pub-item h3 a:hover {
+  color: #347f9d;
+}
