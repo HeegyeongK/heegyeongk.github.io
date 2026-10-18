@@ -51,8 +51,6 @@ redirect_from:
       <div class="trajectory-project">Active acquisition</div>
     </div>
   </div>
-  <p><strong>Future research direction — VisRelay:</strong> Exploring proactive relay planning
-    to prepare another UAV before anticipated target occlusion.</p>
 </section>
 
 <section class="home-section">
