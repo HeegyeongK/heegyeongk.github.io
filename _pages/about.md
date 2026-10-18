@@ -9,25 +9,31 @@ redirect_from:
 
 <section class="home-hero">
   <h1>Cooperative UAV systems for persistent sensing</h1>
-  <div class="availability-badge">Open to postdoctoral &amp; research opportunities · Available 2027</div>
+  <div class="availability-badge">Open to industry R&amp;D and postdoctoral opportunities · Available 2027</div>
   <p class="home-lead">
     I am a PhD candidate in Computer Science at Macquarie University, supervised by Professor Richard Han.
-    My research focuses on cooperative multi-UAV systems that maintain target sensing despite limited endurance,
-    viewpoint changes, and occlusion.
+    My research focuses on aerial robotics and cooperative multi-UAV systems for persistent target observation
+    under limited flight endurance, viewpoint changes, and occlusion.
   </p>
   <p class="home-sublead">
-    I am interested in how multiple robots can share sensing and planning responsibilities when a single robot is no longer enough.
+    I develop methods for verifying target identity across drones and planning receiver motion to obtain a usable
+    target view during handoff. My work combines visual tracking, geometric reasoning, and motion planning,
+    with evaluation through simulation and physical UAV experiments.
+  </p>
+  <p class="home-sublead">
+    More broadly, I am interested in how perception and coordination enable multiple robots to sustain tasks
+    beyond the capabilities of a single platform.
   </p>
   <div class="research-focus-badges" aria-label="Research areas">
     <span class="focus-badge">Multi-UAV systems</span>
     <span class="focus-badge">Aerial robotics</span>
-    <span class="focus-badge">Cooperative perception</span>
+    <span class="focus-badge">Robot perception</span>
   </div>
 </section>
 
 <section class="home-section">
   <div class="section-kicker">Research overview</div>
-  <h2>One persistent-sensing problem, developed across four stages</h2>
+  <h2>Three stages of cooperative target observation</h2>
 
   <div class="research-trajectory">
     <div class="trajectory-step">
@@ -44,12 +50,9 @@ redirect_from:
       <div class="trajectory-label">Active acquisition</div>
       <div class="trajectory-project">Active acquisition</div>
     </div>
-    <div class="trajectory-arrow">→</div>
-    <div class="trajectory-step">
-      <div class="trajectory-label">Relay planning</div>
-      <div class="trajectory-project">VisRelay</div>
-    </div>
   </div>
+  <p><strong>Future research direction — VisRelay:</strong> Exploring proactive relay planning
+    to prepare another UAV before anticipated target occlusion.</p>
 </section>
 
 <section class="home-section">
